@@ -1,0 +1,52 @@
+.wrap {
+  background-image: url(../img/storm_trooper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #5a5656;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+.wrap .button {
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #1a1529;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: white;
+}
+.wrap .content {
+  background-color: rgba(26, 21, 41, 0.3);
+  padding: 0 15px 10px 0;
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+}
+.wrap .content .list {
+  list-style: none;
+  font-size: 20px;
+  line-height: 40px;
+}
+.wrap .hidden {
+  visibility: hidden;
+}
+.wrap .peopleInfo {
+  background-color: rgba(26, 21, 41, 0.3);
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  list-style: none;
+  font-size: 16px;
+  line-height: 40px;
+  padding: 10px;
+}
+.wrap .peopleInfo .name {
+  font-style: italic;
+  font-size: 22px;
+  padding-left: 25px;
+  font-weight: bolder;
+}
+.wrap .peopleInfo .filmsList {
+  list-style: circle;
+  margin: 0 auto;
+}
